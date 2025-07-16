@@ -1,8 +1,4 @@
-class Calculator {
-
-    private int a;
-    private int b;
-
+public class Main {
 
     public int subtract(int a, int b) {
         int result;
@@ -12,7 +8,10 @@ class Calculator {
         return result;
     }
 
+    public int divide(int a, int b) {
+        if (b == 0) {
+            throw new ArithmeticException("Cannot divide by zero");
+        }
+        return a / b;
+    }
 }
-
-
-
