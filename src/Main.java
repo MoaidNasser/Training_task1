@@ -2,9 +2,7 @@ public class Main {
 
     public int subtract(int a, int b) {
         int result;
-
         result = a - b;
-
         return result;
     }
 
@@ -14,4 +12,9 @@ public class Main {
         }
         return a / b;
     }
+
+    public int add(int a, int b) {
+        return a + b;
+    }
+
 }
