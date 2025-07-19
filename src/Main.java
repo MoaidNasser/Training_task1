@@ -8,7 +8,6 @@ public class Main {
             return a % b;
         }
 
-        //adding comment 1
 
         public double logOfNumber(double number) {
             if (number <= 0) {
