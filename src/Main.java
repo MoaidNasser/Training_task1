@@ -9,7 +9,7 @@ public class Main {
         }
 
         //adding comment 1
-        //adding  comment 2
+
         public double logOfNumber(double number) {
             if (number <= 0) {
                 throw new IllegalArgumentException("Number must be positive for logarithm.");
